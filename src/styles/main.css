@@ -1,0 +1,178 @@
+body {
+    cursor: url("../assets/cursor/yugicursor.png"), default;
+}
+
+button,
+a,
+img:hover,
+button:hover,
+a:hover{
+    cursor: url("../assets/cursor/yamiyugicursorGLOW.png"), auto;
+}
+
+.bg-video {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-video .video {
+    height: 100vh;
+}
+
+.bg-video::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8) 50%, rgba(0,0,0,1) 100%);
+}
+
+.container {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    height: 100vh;
+    
+}
+
+.container__left {
+    width: 35%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container__right {
+    width: 65%;
+}
+
+.score_box {
+    background-color: #fff;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.frame {
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.card_details {
+    background-color: #fff;
+    padding: 1erm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 6rem;
+    width: 100%;
+}
+
+#card-name {
+    font-size: 0.8rem;
+}
+
+#card-type {
+    font-size: 1rem;
+}
+
+.card-box__container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.3rem;
+}
+
+.card-versus__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 0.1rem;
+    height: 500px;
+    overflow: hidden;
+}
+
+.fieldtexts {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-right: 4%;
+    margin-left: 6%;
+}
+
+.versus-top, .versus-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.4);
+}
+
+.versus-top {
+    justify-content: space-evenly;
+}
+
+.versus-bottom {
+    margin-top: 1rem;
+}
+
+#next-duel {
+    display: none;
+}
+
+.card-box {
+    height: 9rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-infield {
+    height: 11.2rem;
+    width: 8rem;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+
+.player_card, .computer_card {
+    transition: transform 0.2s;
+}
+
+.player_card:hover {
+    transform: scale(1.2);
+}
+
+.computer_card:hover {
+    transform: scale(0.9);
+}
+
+.menu_avatar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    
+}
+
+#card-image, #card-front {
+    transform: scale(1.4);
+    z-index: 9;
+}
