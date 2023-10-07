@@ -1,9 +1,51 @@
-# Yu-Gi-Oh | Jo-ken-po Edition
 
-Jogo de jokenpo que criei para explicar conceitos de lógica de programação aplicados a jogos
+# Yu-Gi-Oh: Jo-Ken-Poh 
 
-conceitos abordados:
+Um jogo feito para demonstrar alguns conceitos que aprendi sobre o desenvolvimento de jogos, feito inteiramente em HTML, CSS e JavaScript!
+Ele funciona de uma forma simples, escolha a carta que você deseja jogar na casa. Existem 3 cartas diferentes:
 
-- Armazenamento e gerenciamento de estado manual
-- Funções limpas
-- Organização de código
+- Dragão Branco de olhos azuis | Papel
+- Mago Negro | Pedra
+- Exodia | Tesoura
+
+Após você jogar sua carta na mesa, o computador jogará a dele. Dependendo das cartas, o resultado será decidido.
+
+- Papel > Pedra
+- Pedra > Tesoura
+- Tesoura > Papel
+
+
+## Screenshots
+
+![Tela Inicial](https://imgur.com/mh8nHad)
+![Empate](https://imgur.com/pRICed6)
+![Derrota](https://imgur.com/c5xCKOS)
+![Vitória](https://imgur.com/eWX9u1U)
+
+
+## Autores
+
+- [@diego-lanca](https://www.github.com/diego-lanca)
+
+
+## Referência
+
+ - [DIO: Potência Tech iFood - Desenvolvimento de Jogos](https://web.dio.me/track/b19b1586-8a94-4eb7-95af-15d785b6e96e)
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/diego-lanca/yugioh-jokenpo
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd my-project
+```
+
+Rode o arquivo index.html com a extensão Live Server do VsCode
+
