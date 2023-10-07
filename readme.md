@@ -17,10 +17,10 @@ Após você jogar sua carta na mesa, o computador jogará a dele. Dependendo das
 
 ## Screenshots
 
-![Tela Inicial](https://imgur.com/mh8nHad)
-![Empate](https://imgur.com/pRICed6)
-![Derrota](https://imgur.com/c5xCKOS)
-![Vitória](https://imgur.com/eWX9u1U)
+![Tela Inicial](https://i.imgur.com/mh8nHad.png)
+![Empate](https://i.imgur.com/pRICed6.png)
+![Derrota](https://i.imgur.com/c5xCKOS.png)
+![Vitória](https://i.imgur.com/eWX9u1U.png)
 
 
 ## Autores
